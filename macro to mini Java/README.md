@@ -8,3 +8,12 @@ $ gcc A1.tab.c -lfl -o A1
 $ ./A1 < X.java > Y.java  
 
 If the X.java file is not a valid MacroJava program, then the output will be "//Failed to parse input code".
+
+
+Installing flex and bison:
+
+Ubuntu:
+$ sudo apt install flex bison
+
+macOS (through Homebrew):
+$ brew install flex bison
